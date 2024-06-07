@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RESTRICT_BRN_VAT_UPDATES</fullName>
+    <active>true</active>
+    <description>BRN,VAT  cannot be changed for an active account</description>
+    <errorConditionFormula>NOT($Setup.GlobalMute__c.AllValidationRuleDisabled__c) &amp;&amp;
+ISPICKVAL( Account_Status__c,&apos;Active&apos;) &amp;&amp;
+((ISCHANGED(BRN__c) &amp;&amp;  PRIORVALUE(BRN__c) != &apos;&apos; ) || 
+((ISCHANGED(VAT_Registration_Number__c) &amp;&amp;  PRIORVALUE(VAT_Registration_Number__c) != &apos;&apos; )))</errorConditionFormula>
+    <errorMessage>BRN,VAT  cannot be changed for an active account</errorMessage>
+</ValidationRule>

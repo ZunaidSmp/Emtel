@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VALIDATE_MOBILE</fullName>
+    <active>true</active>
+    <description>Mobile Number field must contain a minimum of 8 numbers and accept only the plus sign (+) and hyphen (-) characters.</description>
+    <errorConditionFormula>(NOT(ISBLANK(Mobile_Number__c)) &amp;&amp;
+LEN(SUBSTITUTE(SUBSTITUTE(Mobile_Number__c, &quot;-&quot;, &quot;&quot;), &quot;+&quot;, &quot;&quot;)) &lt; 8 ) ||
+NOT(REGEX(Mobile_Number__c, &quot;^\\+?[0-9-]*$&quot;))</errorConditionFormula>
+    <errorDisplayField>Mobile_Number__c</errorDisplayField>
+    <errorMessage>Mobile Number field must contain a minimum of 8 numbers and accept only the plus sign (+) and hyphen (-) characters.</errorMessage>
+</ValidationRule>

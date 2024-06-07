@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sectors__c</fullName>
+    <description>This field will store the sector</description>
+    <externalId>false</externalId>
+    <label>Sectors</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>SME</fullName>
+                <default>false</default>
+                <label>SME</label>
+            </value>
+            <value>
+                <fullName>BFI</fullName>
+                <default>false</default>
+                <label>BFI</label>
+            </value>
+            <value>
+                <fullName>ICT</fullName>
+                <default>false</default>
+                <label>ICT</label>
+            </value>
+            <value>
+                <fullName>Carrier</fullName>
+                <default>false</default>
+                <label>Carrier</label>
+            </value>
+            <value>
+                <fullName>PDS/ RES</fullName>
+                <default>false</default>
+                <label>PDS/ RES</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+                <label>Hospitality</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

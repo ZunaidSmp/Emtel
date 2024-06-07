@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACCOUNT_STATUS_VALIDATION</fullName>
+    <active>true</active>
+    <description>Changes to active account is not allowed</description>
+    <errorConditionFormula>OR(
+AND(
+    NOT(ISNEW()),
+    NOT($Permission.Update_Active_Account),
+    NOT($Setup.GlobalMute__c.AllValidationRuleDisabled__c),
+    ISPICKVAL(Account_Status__c, &quot;Active&quot;),
+    NOT(ISCHANGED(Account_Status__c))    
+),
+AND(
+   NOT(ISNEW()),
+   NOT($Setup.GlobalMute__c.AllValidationRuleDisabled__c),
+   NOT($Permission.Update_Active_Account),
+   ISCHANGED(Account_Status__c),
+   ISPICKVAL(PRIORVALUE(Account_Status__c), &quot;Active&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>Changes to active account is not allowed</errorMessage>
+</ValidationRule>

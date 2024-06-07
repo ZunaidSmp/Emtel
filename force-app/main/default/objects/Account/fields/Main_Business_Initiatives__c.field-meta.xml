@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Business_Initiatives__c</fullName>
+    <description>This field will store the business initiatives</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What are their main business initiatives?</inlineHelpText>
+    <label>Main Business Initiatives</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

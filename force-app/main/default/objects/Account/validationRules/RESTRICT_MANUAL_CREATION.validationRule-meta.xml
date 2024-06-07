@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RESTRICT_MANUAL_CREATION</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISNEW(),
+RecordType.DeveloperName = &quot;Business&quot;,
+Not(Converted_from_lead__c), 
+Not($Permission.Allow_Manual_Account_Creation)
+)</errorConditionFormula>
+    <errorMessage>Manual creation of account is not allowed</errorMessage>
+</ValidationRule>
