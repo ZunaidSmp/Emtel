@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VALIDATE_PHONE</fullName>
+    <active>false</active>
+    <description>Phone field must contain a minimum of 8 numbers and accept only the plus sign (+) and hyphen (-) characters.</description>
+    <errorConditionFormula>(NOT(ISBLANK(Phone)) &amp;&amp;
+LEN(SUBSTITUTE(SUBSTITUTE(Phone, &quot;-&quot;, &quot;&quot;), &quot;+&quot;, &quot;&quot;)) &lt; 8 ) ||
+NOT(REGEX(Phone, &quot;^\\+?[0-9-]*$&quot;))</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Phone field must contain a minimum of 8 numbers and accept only the plus sign (+) and hyphen (-) characters.</errorMessage>
+</ValidationRule>

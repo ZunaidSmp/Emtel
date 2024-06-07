@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VALIDATE_BRN</fullName>
+    <active>true</active>
+    <description>Special characters are not allowed in the BRN field.</description>
+    <errorConditionFormula>NOT(REGEX(BRN__c, &quot;^[a-zA-Z0-9]*$&quot;))</errorConditionFormula>
+    <errorDisplayField>BRN__c</errorDisplayField>
+    <errorMessage>Special characters are not allowed in the BRN field.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Number_Of_Sim_Cards_c__c</fullName>
+    <externalId>false</externalId>
+    <label>Total_Number_Of_Sim_Cards__c</label>
+    <summarizedField>Competitor__c.Number_of_Mobile_Connections__c</summarizedField>
+    <summaryForeignKey>Competitor__c.Account__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

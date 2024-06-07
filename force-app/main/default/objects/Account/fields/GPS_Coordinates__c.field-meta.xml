@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GPS_Coordinates__c</fullName>
+    <description>This field will store the GPS coordinates &quot; Example: -20.228948°, 57.523855°&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>&quot;Coordinates Example: -20.228948°, 57.523855°&quot;</inlineHelpText>
+    <label>GPS Coordinates</label>
+    <length>30</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

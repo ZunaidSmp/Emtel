@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Decision_Makers__c</fullName>
+    <description>This field will store the main decision-makers.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Who are the main decision-makers?</inlineHelpText>
+    <label>Main Decision Makers</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

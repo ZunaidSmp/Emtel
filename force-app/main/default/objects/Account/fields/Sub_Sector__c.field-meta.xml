@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Sector__c</fullName>
+    <description>This field will store the sub sector</description>
+    <externalId>false</externalId>
+    <label>Sub Sector</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Industry</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agro Industry</fullName>
+                <default>false</default>
+                <label>Agro Industry</label>
+            </value>
+            <value>
+                <fullName>Audit, Tax &amp; Accounting Firms</fullName>
+                <default>false</default>
+                <label>Audit, Tax &amp; Accounting Firms</label>
+            </value>
+            <value>
+                <fullName>Banking</fullName>
+                <default>false</default>
+                <label>Banking</label>
+            </value>
+            <value>
+                <fullName>BPO</fullName>
+                <default>false</default>
+                <label>BPO</label>
+            </value>
+            <value>
+                <fullName>Brokers</fullName>
+                <default>false</default>
+                <label>Brokers</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Consultancy</fullName>
+                <default>false</default>
+                <label>Consultancy</label>
+            </value>
+            <value>
+                <fullName>Diplomatic Missions</fullName>
+                <default>false</default>
+                <label>Diplomatic Missions</label>
+            </value>
+            <value>
+                <fullName>District Council</fullName>
+                <default>false</default>
+                <label>District Council</label>
+            </value>
+            <value>
+                <fullName>Entertainment &amp; Recreation</fullName>
+                <default>false</default>
+                <label>Entertainment &amp; Recreation</label>
+            </value>
+            <value>
+                <fullName>Financial Institutions</fullName>
+                <default>false</default>
+                <label>Financial Institutions</label>
+            </value>
+            <value>
+                <fullName>FMCG</fullName>
+                <default>false</default>
+                <label>FMCG</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Beverages</fullName>
+                <default>false</default>
+                <label>Food &amp; Beverages</label>
+            </value>
+            <value>
+                <fullName>Freight &amp; Logistics</fullName>
+                <default>false</default>
+                <label>Freight &amp; Logistics</label>
+            </value>
+            <value>
+                <fullName>GBL Companies</fullName>
+                <default>false</default>
+                <label>GBL Companies</label>
+            </value>
+            <value>
+                <fullName>Global ICT Service Provider</fullName>
+                <default>false</default>
+                <label>Global ICT Service Provider</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Jewellery</fullName>
+                <default>false</default>
+                <label>Jewellery</label>
+            </value>
+            <value>
+                <fullName>Light Engineering</fullName>
+                <default>false</default>
+                <label>Light Engineering</label>
+            </value>
+            <value>
+                <fullName>Lodging and Accommodation</fullName>
+                <default>false</default>
+                <label>Lodging and Accommodation</label>
+            </value>
+            <value>
+                <fullName>Management Companies</fullName>
+                <default>false</default>
+                <label>Management Companies</label>
+            </value>
+            <value>
+                <fullName>Ministries</fullName>
+                <default>false</default>
+                <label>Ministries</label>
+            </value>
+            <value>
+                <fullName>Municipal Council</fullName>
+                <default>false</default>
+                <label>Municipal Council</label>
+            </value>
+            <value>
+                <fullName>Parastatal</fullName>
+                <default>false</default>
+                <label>Parastatal</label>
+            </value>
+            <value>
+                <fullName>Property Development</fullName>
+                <default>false</default>
+                <label>Property Development</label>
+            </value>
+            <value>
+                <fullName>Seafood Processing</fullName>
+                <default>false</default>
+                <label>Seafood Processing</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Textiles</fullName>
+                <default>false</default>
+                <label>Textiles</label>
+            </value>
+            <value>
+                <fullName>Travel &amp; Tourism</fullName>
+                <default>false</default>
+                <label>Travel &amp; Tourism</label>
+            </value>
+            <value>
+                <fullName>Wealth Management Companies</fullName>
+                <default>false</default>
+                <label>Wealth Management Companies</label>
+            </value>
+            <value>
+                <fullName>Wellness &amp; Healthcare</fullName>
+                <default>false</default>
+                <label>Wellness &amp; Healthcare</label>
+            </value>
+            <value>
+                <fullName>Wholesale International</fullName>
+                <default>false</default>
+                <label>Wholesale International</label>
+            </value>
+            <value>
+                <fullName>Wholesale Local</fullName>
+                <default>false</default>
+                <label>Wholesale Local</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <valueName>Entertainment &amp; Recreation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <valueName>Food &amp; Beverages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <valueName>Lodging and Accommodation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <valueName>Property Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <valueName>Travel &amp; Tourism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <valueName>Wellness &amp; Healthcare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFI</controllingFieldValue>
+            <valueName>Audit, Tax &amp; Accounting Firms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFI</controllingFieldValue>
+            <valueName>Banking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFI</controllingFieldValue>
+            <valueName>Brokers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFI</controllingFieldValue>
+            <valueName>Financial Institutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFI</controllingFieldValue>
+            <valueName>GBL Companies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFI</controllingFieldValue>
+            <valueName>Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFI</controllingFieldValue>
+            <valueName>Management Companies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFI</controllingFieldValue>
+            <valueName>Wealth Management Companies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Agro Industry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>FMCG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Freight &amp; Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Jewellery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Light Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Seafood Processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Textiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT/BPO</controllingFieldValue>
+            <valueName>BPO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT/BPO</controllingFieldValue>
+            <valueName>Consultancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT/BPO</controllingFieldValue>
+            <valueName>Hardware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT/BPO</controllingFieldValue>
+            <valueName>Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carrier</controllingFieldValue>
+            <valueName>Global ICT Service Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carrier</controllingFieldValue>
+            <valueName>Wholesale International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carrier</controllingFieldValue>
+            <valueName>Wholesale Local</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Goverment</controllingFieldValue>
+            <valueName>Diplomatic Missions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Goverment</controllingFieldValue>
+            <valueName>District Council</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Goverment</controllingFieldValue>
+            <valueName>Ministries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Goverment</controllingFieldValue>
+            <valueName>Municipal Council</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Goverment</controllingFieldValue>
+            <valueName>Parastatal</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

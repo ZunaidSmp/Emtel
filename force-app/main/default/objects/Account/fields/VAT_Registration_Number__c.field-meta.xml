@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VAT_Registration_Number__c</fullName>
+    <description>VAT Registration Number (e.g. 99999999)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>MRA allocates a TAN to the entities carrying out business activities</inlineHelpText>
+    <label>VAT Registration Number</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
